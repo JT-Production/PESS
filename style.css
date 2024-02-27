@@ -4,7 +4,8 @@ body{
     scroll-behavior: smooth;
     height: 150vh;
     font-family: 'Montserrat';
-  
+  overflow-x: hidden;
+ 
 }
 .active-page{
   position: relative;
@@ -335,15 +336,16 @@ nav .offcanvas-body ul li .nav-link {
 
  /*ABOUT US PAGE*/
  .background{
-    background: linear-gradient(rgba(3, 3, 3, 0.092),rgba(0, 0, 0, 0.174)), white;
-    background-position: center;
-    background-attachment: fixed;
+    background: linear-gradient(rgba(3, 3, 3, 0.562),rgba(0, 0, 0, 0.753)), url(https://res.cloudinary.com/dmvwjmy23/image/upload/v1708339517/PESS%20images/qqqh0w1pzxceqbtsq87b.jpg);
+    background-size: cover;
+
     height: 28rem;
     color: black;
+    color: white !important;
  }
- hr{
-  height: 20px !important;
- }
+.background h1{
+color:#7bcbe3;
+}
  .our-story{
     background: linear-gradient(rgba(3, 3, 3, 0.849),rgba(0, 0, 0, 0.882)), url(https://res.cloudinary.com/dmvwjmy23/image/upload/v1708339483/PESS%20images/hpiwoe3jmgmltf5hb0zd.webp);
     height: 40rem;
@@ -469,7 +471,7 @@ nav .offcanvas-body ul li .nav-link {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   .outdoor-style img{
-    width: 450px; height: 200px; object-fit: contain;
+    width: 400px; height: 200px; object-fit: contain;
    }
    @media all and (max-width: 1200px){
     .our-story{
@@ -496,6 +498,9 @@ nav .offcanvas-body ul li .nav-link {
       padding: 20px 30px 20px 30px;
 
      
+     }
+     .map{
+      width: 408px;
      }
      .about-pic-content img{
       width: 350px;
