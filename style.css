@@ -278,6 +278,9 @@ nav .offcanvas-body ul li .nav-link {
 }
 
 @media all and (max-width: 1200px){
+  body{
+    overflow-x: hidden;
+  }
    .top-nav{
     display: none;
    }
@@ -310,6 +313,9 @@ nav .offcanvas-body ul li .nav-link {
 
   }
 @media all and (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
     .our-story{
         padding: 0px 10px;
     }
@@ -343,6 +349,7 @@ nav .offcanvas-body ul li .nav-link {
     color: black;
     color: white !important;
  }
+
 .background h1{
 color:#7bcbe3;
 }
@@ -474,6 +481,9 @@ color:#7bcbe3;
     width: 400px; height: 200px; object-fit: contain;
    }
    @media all and (max-width: 1200px){
+    .center-hero{
+      margin-top: 100px;
+    }
     .our-story{
       height: 40em;
     }
@@ -491,6 +501,9 @@ color:#7bcbe3;
      }
    }
   @media all and (max-width: 600px){
+    .center-hero{
+      margin-top: 100px;
+    }
     .about-pic-content img{
         width:400px ;
     }
@@ -500,7 +513,7 @@ color:#7bcbe3;
      
      }
      .map{
-      width: 408px;
+      width: 380px;
      }
      .about-pic-content img{
       width: 350px;
